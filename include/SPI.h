@@ -1,7 +1,7 @@
 #ifndef PICOPP_SPI_H
 #define PICOPP_SPI_H
 
-#include "hardwar/spi.h"
+#include "hardware/spi.h"
 
 class SPI
 {
