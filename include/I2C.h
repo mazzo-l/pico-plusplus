@@ -1,5 +1,5 @@
-#ifndef ELETTRONICA_I2C_H
-#define ELETTRONICA_I2C_H
+#ifndef PICOPP_I2C_H
+#define PICOPP_I2C_H
 
 #include "hardware/i2c.h"
 #include "Pin.h"
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //ELETTRONICA_I2C_H
+#endif //PICOPP_I2C_H
