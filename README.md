@@ -14,6 +14,10 @@ git clone https://github.com/mazzo-l/pico-plusplus.git`. In alternative you can 
 ```cmake
 add_subdirectory(pico-plusplus)
 ```
+4. Add `picopp` to `target_link_libraries`
+```cmake
+target_link_libraries(yourTarget picopp)
+```
 # Usage guide
 The pico-plusplus library comprises of:
 - Pin.h: A Pin class used to interface with the GPIOs
