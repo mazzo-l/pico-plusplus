@@ -12,7 +12,7 @@ public:
     /// Handle to the underlying gpio number
     unsigned int gpio;
 
-    explicit Pin(unsigned int gpio_, PinMode mode = PinMode::OUT);
+    Pin(unsigned int gpio_, PinMode mode = PinMode::OUT);
 
     void high() const;
 
